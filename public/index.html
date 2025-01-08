@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Meu portifolio</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Portfólio</title>
+  <script>
+    if (!window.location.pathname.startsWith('/portifolio')) {
+      window.location.href = '/portifolio' + window.location.pathname + window.location.search;
+    }
+  </script>
+</head>
 
-  <body>
-    <noscript>Você precisa de JavaScript para rodar essa aplicação.</noscript>
-    <div id="root"></div>
-  </body>
-  
+<body>
+  <noscript>Você precisa de JavaScript para rodar essa aplicação.</noscript>
+  <div id="root"></div>
+</body>
+
 </html>
