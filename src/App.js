@@ -7,11 +7,11 @@ import "./App.css"
 
 function App() {
   return (
-    <BrowserRouter className='body'>
-      {<Routes basename="/portifolio">
-        <Route path="/portifolio" element={<Home />} />
-        <Route path="/portifolio/projetos" element={<Projetos />} />
-        <Route path="/portifolio/contatos" element={<Contatos />} />
+    <BrowserRouter className='body' basename="/portifolio">
+      {<Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projetos" element={<Projetos />} />
+        <Route path="/contatos" element={<Contatos />} />
       </Routes>}
     </BrowserRouter>
   );
