@@ -8,8 +8,8 @@ import "./App.css"
 function App() {
   return (
     <BrowserRouter className='body'>
-      {<Routes>
-        <Route path="https://lucasyohan.github.io/portifolio/" element={<Home />} />
+      {<Routes basename="/portifolio">
+        <Route path="/portifolio" element={<Home />} />
         <Route path="/portifolio/projetos" element={<Projetos />} />
         <Route path="/portifolio/contatos" element={<Contatos />} />
       </Routes>}
