@@ -1,7 +1,7 @@
-import './Home.css'
+import "./Projetos.css"
 import NavBar from '../../components/NavBar'
 
-const Home = () => {
+const Projetos = () => {
     return (
         <div>
            <NavBar />
@@ -9,4 +9,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Projetos

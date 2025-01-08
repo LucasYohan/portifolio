@@ -13,9 +13,6 @@
 .NavBar ul {
     display: flex;
     gap: 1rem;
-}
-
-.new-btn{
     font-weight: bold;
     border: 1px solid #ffff;
     padding: .5rem 1rem;
