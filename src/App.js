@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter className='body'>
       {<Routes>
-        <Route path="/portifolio" element={<Home />} />
+        <Route path="https://lucasyohan.github.io/portifolio/" element={<Home />} />
         <Route path="/portifolio/projetos" element={<Projetos />} />
         <Route path="/portifolio/contatos" element={<Contatos />} />
       </Routes>}
