@@ -1,8 +1,16 @@
-<script>
+<!-- <script>
     if (!window.location.pathname.startsWith("/portifolio")) {
         window.location.replace(
         window.location.origin + "/portifolio" + window.location.pathname
       );
+    }
+  </script>
+   -->
+
+  <script>
+    const currentPath = window.location.pathname;
+    if (!currentPath.startsWith("/portifolio")) {
+      window.location.replace(window.location.origin + "/portifolio" + currentPath);
     }
   </script>
   
