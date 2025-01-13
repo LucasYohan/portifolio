@@ -1,3 +1,5 @@
 <script>
-    window.location.replace("/portifolio");
+    const currentPath = window.location.pathname;
+    window.location.replace(window.location.origin + "/portifolio" + currentPath.replace("/portifolio", ""));
   </script>
+  
