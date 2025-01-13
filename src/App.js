@@ -7,7 +7,7 @@ import "./App.css"
 
 function App() {
   return (
-    <BrowserRouter className='body' basename="/portifolio">
+    <BrowserRouter basename="/portifolio">
       {<Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projetos" element={<Projetos />} />
