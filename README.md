@@ -1,8 +1,8 @@
 BEM VINDO AO MEU PORTFÓLIO!!!
 
-Nesse projeto, estarei colocando todas os meus conhecimentos mais relevantes sobre a área de desenvolvimento!!
+Nesse projeto, estarei colocando todas os meus conhecimentos mais relevantes sobre a área de desenvolvimento, sendo mais especificamente
+uma aplicação web onde cada página terá alguma informação sobre mim!
 
-No momento, esse projeto está sendo realizado interiamente em React com JavaScript!!
+Tecnologia usada:
 
-Nesse arquivo você ira encontrar uma maior explicação sobre minha jornada na área da T.I, meus projetos principais que realizei,
-desde os iniciais até os mais completos e minhas formas de contato principais!
+- ReactJS
