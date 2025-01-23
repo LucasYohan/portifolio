@@ -6,3 +6,5 @@ uma aplicação web onde cada página terá alguma informação sobre mim!
 Tecnologia usada:
 
 - ReactJS
+
+link : https://lucasyohan.github.io/portifolio/
