@@ -23,7 +23,7 @@ const NavBar = () => {
 
                 <li className="dropdown">
                     <button onClick={toggleDropdown} className="dropdown-button">
-                        Projetos
+                        <a>Projetos</a>
                     </button>
                     <ul className={`dropdown-menu ${showDropdown ? 'show' : ''}`}>
                         <li><Link to={"/projeto1"}>Teste 1</Link></li>
