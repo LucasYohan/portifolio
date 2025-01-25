@@ -1,10 +1,9 @@
 import "./Projetos.css"
-import NavBar from '../../components/NavBar'
 
 const Projetos = () => {
     return (
         <div>
-           <NavBar />
+           <a>Teste</a>
         </div>
     )
 }

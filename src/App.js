@@ -1,19 +1,25 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home/Home";
-import Projetos from "./routes/Projetos/Projetos"
 import Contatos from "./routes/Contatos/Contatos";
+import Container from "./layout/Container";
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
 import "./App.css"
-
 
 function App() {
   return (
-    <BrowserRouter basename="/portifolio">
-      {<Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projetos" element={<Projetos />} />
-        <Route path="/contatos" element={<Contatos />} />
-      </Routes>}
-    </BrowserRouter>
+    <Container>
+      <BrowserRouter basename="/portifolio">
+          <NavBar />
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/contatos" element={<Contatos />} />
+            </Routes>
+          </div>
+      </BrowserRouter>
+      <Footer />
+    </Container>
   );
 }
 

@@ -1,24 +1,21 @@
 import './Contatos.css'
-import NavBar from '../../components/NavBar'
-import Linkedin from "../../img/linkedin.png"
+import Linkedin from "../../assets/linkedin.png"
 import { Link } from 'react-router-dom'
 
 const Contatos = () => {
     return (
         <div className={"contatosGeral"}>
-            <NavBar />
             <div className='contatos'>
                 <ul>
                     <li className='linkedin'>
-                        <Link to={"https://www.linkedin.com/in/lucas-yohan-fran%C3%A7a-marinho-72160628b/"}>Linkedin</Link>
-                        <a href='https://www.linkedin.com/in/lucas-yohan-fran%C3%A7a-marinho-72160628b/'>
-                            <img src={Linkedin} href />
+                        <Link to={"https://www.linkedin.com/in/lucasyohan"}>Linkedin</Link>
+                        <a href='https://www.linkedin.com/in/lucasyohan'>
+                            <img src={Linkedin} />
                         </a>
                     </li>
 
                     <li className='Gmail'>
                         <h1>Gmail : lucasyohanfmarinho@gmail.com</h1>
-
                     </li>
                 </ul>
             </div>

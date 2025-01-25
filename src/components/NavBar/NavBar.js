@@ -12,7 +12,7 @@ const NavBar = () => {
 
     return (
         <div className="NavBar">
-            <h2 className='titulo'>
+            <h2>
                 <Link to={"/"}>Lucas Yohan</Link>
             </h2>
 
