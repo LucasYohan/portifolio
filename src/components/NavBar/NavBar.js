@@ -26,11 +26,11 @@ const NavBar = () => {
                         <a>Projetos</a>
                     </button>
                     <ul className={`dropdown-menu ${showDropdown ? 'show' : ''}`}>
-                        <li><Link to={"/projeto1"}>Teste 1</Link></li>
-                        <li><Link to={"/projeto2"}>Teste 2</Link></li>
-                        <li><Link to={"/projeto3"}>Teste 3</Link></li>
-                        <li><Link to={"/projeto4"}>Teste 4</Link></li>
-                        <li><Link to={"/projeto5"}>Teste 5</Link></li>
+                        <li><Link to={"/Projeto1"}>Teste 1</Link></li>
+                        <li><Link to={"/Projeto2"}>Teste 2</Link></li>
+                        <li><Link to={"/Projeto3"}>Teste 3</Link></li>
+                        <li><Link to={"/Projeto4"}>Teste 4</Link></li>
+                        <li><Link to={"/Projeto5"}>Teste 5</Link></li>
                     </ul>
                 </li>
 
