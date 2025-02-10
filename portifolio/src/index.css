@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html, body {
+    background-color: #0e1217;
+    color: #ffff;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    opacity: 0.4;
+    transition: 1.2s;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+p {
+    color: #a9abb3
+}
