@@ -1,12 +1,30 @@
-# React + Vite
+# 🌐 Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código do meu portfólio desenvolvido com **ReactJS**.  
+O objetivo do projeto é reunir em um só lugar:
 
-Currently, two official plugins are available:
+- 🚀 Meus conhecimentos em **desenvolvimento web**  
+- 📂 Projetos já desenvolvidos  
+- 👨‍💻 Informações sobre mim  
+- ✉️ Formas de contato  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O site possui **tema claro e escuro**, uma navegação simples e responsiva, destacando minha experiência e facilitando a comunicação com recrutadores ou parceiros.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+- [ReactJS](https://reactjs.org/)  
+- [Vite](https://vitejs.dev/)  
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
+
+---
+
+## 🚀 Como executar o projeto
+
+Clone este repositório e instale as dependências:
+
+```bash
+git clone https://github.com/LucasYohan/portifolio.git
+cd seu-repositorio
+npm install
+npm run dev
