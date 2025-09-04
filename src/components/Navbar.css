@@ -6,14 +6,28 @@
   justify-content: space-between;
   background: #fff;
   padding: 15px 7%;
-  transition: 0.5s;
+  transition: transform 0.4s ease-in-out;
   border-bottom: 1px solid #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
-.dark .navbar {
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+.navbar.dark {
   background: #000;
   color: #fff;
   border-bottom: 2px solid #fff;
+}
+
+.navbar.light {
+  background: #fff;
+  color: #000;
+  border-bottom: 1px solid #000;
 }
 
 ul {

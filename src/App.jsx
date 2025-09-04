@@ -8,11 +8,15 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("current_theme", theme);
+    document.body.className = theme;
   }, [theme]);
 
   return (
     <div className={`container ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} />
+      <main className="content">
+        <h1>Meu conteúdo</h1>
+      </main>
     </div>
   );
 }

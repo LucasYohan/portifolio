@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eeeaea;
+}
+
+body.dark {
+  background: #221f1f;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #eeeaea;
+  transition: 0.5s;
+}
+
+.container.dark {
+  background: #221f1f;
+  color: #fff;
+}
+
+.content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
