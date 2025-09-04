@@ -7,7 +7,7 @@
   background: #fff;
   padding: 15px 7%;
   transition: transform 0.4s ease-in-out;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,14 +19,14 @@
 }
 
 .navbar.dark {
-  background: #000;
+  background: #3e3b3b;
   color: #fff;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .navbar.light {
   background: #fff;
-  color: #000;
+  color: #3e3b3b;
   border-bottom: 1px solid #000;
 }
 
@@ -49,7 +49,7 @@ ul li {
 }
 
 .light ul li {
-  background: #222;
+  background: #3e3b3b;
   color: #fff;
   border-color: #222;
 }
@@ -63,12 +63,12 @@ ul li {
 
 .dark ul li {
   background: #fff;
-  color: #000;
+  color: #3e3b3b;
   border-color: #fff;
 }
 
 .dark ul li:hover {
-  background: #000;
+  background: #3e3b3b;
   color: #fff;
   border-color: #fff;
   transform: scale(1.08);

@@ -1,8 +1,6 @@
 import "./Navbar.css";
-import logo_light from "../assets/night.png";
-import logo_dark from "../assets/day.png";
-import image_light from "../assets/image_light.png";
-import image_dark from "../assets/image_dark.png";
+import logo_light from "../../assets/night.png";
+import logo_dark from "../../assets/day.png";
 import { useEffect, useState } from "react";
 
 function Navbar({ theme, setTheme }) {
@@ -32,13 +30,6 @@ function Navbar({ theme, setTheme }) {
 
   return (
     <div className={`navbar ${theme} ${hidden ? "hidden" : ""}`}>
-      <div className="image">
-        <img
-          src={theme === "light" ? image_light : image_dark}
-          alt="Alternar icone"
-        />
-      </div>
-
       <ul>
         <li>Home</li>
         <li>Sobre mim</li>

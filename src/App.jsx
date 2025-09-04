@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
+import Banner from "./components/banner/Banner";
 
 function App() {
   const current_theme = localStorage.getItem("current_theme");
@@ -15,7 +16,7 @@ function App() {
     <div className={`container ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} />
       <main className="content">
-        <h1>Meu conteúdo</h1>
+        <Banner theme={theme} setTheme={setTheme} />
       </main>
     </div>
   );
