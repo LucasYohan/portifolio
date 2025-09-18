@@ -15,44 +15,44 @@ function Header() {
         <div className={toggle ? "nav__menu show__menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#Home" className="nav__link active__link">
+              <a href="#home" className="nav__link active__link">
                 <i className="uil uil-estate nav__icon"></i>
-                Home
+                Inicio
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#About" className="nav__link">
+              <a href="#about" className="nav__link">
                 <i className="uil uil-user nav__icon"></i>
-                About
+                Sobre Mim
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#Skills" className="nav__link">
+              <a href="#skills" className="nav__link">
                 <i className="uil uil-file-alt nav__icon"></i>
-                Skills
+                Habilidades
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#Services" className="nav__link">
+              <a href="#services" className="nav__link">
                 <i className="uil uil-briefcase-alt nav__icon"></i>
-                Services
+                Trabalhos
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#portfolio" className="nav__link">
                 <i className="uil uil-scenery nav__icon"></i>
-                Portifolio
+                Projetos
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i>
-                Contact
+                Contato
               </a>
             </li>
           </ul>
