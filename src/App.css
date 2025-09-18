@@ -115,19 +115,19 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section__title {
+.section__tittle {
   font-size: var(--h1-font-size);
   color: var(--tittle-color);
 }
 
-.section__subtitle {
+.section__subtittle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section__title,
-.section__subtitle {
+.section__tittle,
+.section__subtittle {
   text-align: center;
 }
 
@@ -195,7 +195,7 @@ img {
     padding: 2rem 0 4rem;
   }
 
-  .section__subtitle {
+  .section__subtittle {
     margin-bottom: var(--mb-3);
   }
 }
