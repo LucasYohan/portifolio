@@ -22,7 +22,9 @@ function About() {
             permite unir lógica de programação com criatividade no design.
           </p>
 
-          <a download="" href={CV} className="button button--flex">Download</a>
+          <a download="" href={CV} className="button button--flex">
+            Baixar meu curriculo
+          </a>
         </div>
       </div>
     </section>
