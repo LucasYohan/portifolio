@@ -185,7 +185,7 @@ img {
   }
 }
 
-/*Telas medias*/
+/*Telas médias*/
 @media screen and (max-width: 768px) {
   body {
     margin: 0 0 var(--header-height) 0;
@@ -201,10 +201,6 @@ img {
 }
 
 /*Telas pequenas*/
-@media screen and (max-width: 576px) {
-}
-
-/*Telas muito pequenas*/
 @media screen and (max-width: 350px) {
   :root {
     --big-font-size: 2.25rem;
