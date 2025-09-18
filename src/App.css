@@ -8,8 +8,8 @@
   /*Cores*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --tittle-color: hsl(var(--hue), var(--sat), 20%);
+  --tittle-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
@@ -17,7 +17,7 @@
   /*Fontes*/
   --body-font: "Poppins", sans-serif;
 
-  --big-font-size: 3.5rem;
+  --big-font-size: 3.3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -87,7 +87,7 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--title-color);
+  color: var(--tittle-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -117,7 +117,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--tittle-color);
 }
 
 .section__subtitle {
@@ -146,7 +146,7 @@ img {
 /*Botões*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--tittle-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -154,7 +154,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--tittle-color-dark);
 }
 
 .button__icon {

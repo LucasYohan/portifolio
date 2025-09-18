@@ -42,7 +42,7 @@
   display: none;
 }
 
-.active__link,
+.active__link:hover,
 .nav__link:hover {
   color: var(--tittle-color-dark);
 }
