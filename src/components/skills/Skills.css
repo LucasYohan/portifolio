@@ -36,17 +36,48 @@
 }
 
 .skills .bx-badge-check {
-    font-size: 1rem;
-    color: var(--tittle-color);
+  font-size: 1rem;
+  color: var(--tittle-color);
 }
 
 .skills__name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    line-height: 18px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
 }
 
 .skills__level {
-    font-size: var(--tiny-font-size);
-    
+  font-size: var(--tiny-font-size);
+}
+
+/*Breakpoints*/
+
+/*Telas grandes*/
+@media screen and (max-width: 992px) {
+    .skills__container{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+
+    }
+}
+
+/*Telas médias*/
+@media screen and (max-width: 576px) {
+    .skills__container{
+        grid-template-columns: 1fr;
+    }
+    .skills__content{
+        padding: 1.5rem;
+    }
+}
+
+/*Telas pequenas*/
+@media screen and (max-width: 350px) {
+    .skills__box{
+        column-gap: 1.25rem;
+    }
+
+    .skills__name{
+        font-size: var(--small-font-size);
+    }
 }

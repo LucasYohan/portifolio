@@ -156,7 +156,6 @@ img {
 /*Breakpoints*/
 
 /*Telas grandes*/
-
 @media screen and (max-width: 992px) {
   :root {
     --big-font-size: 2.75rem;
