@@ -6,7 +6,7 @@ function Skills() {
   return (
     <section className="skills section" id="skills">
       <h2 className="section__tittle">Minhas Habilidades</h2>
-      <span className="section__subtittle">Introdução</span>
+      <span className="section__subtittle">Meu nível técnico</span>
 
       <div className="skills__container container grid">
         <Frontend />
