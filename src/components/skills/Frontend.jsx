@@ -6,7 +6,8 @@ function Frontend() {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-
+            <i class="bxr  bx-badge-check"></i>
+            
             <div>
               <h3 className="skills__name">HTML</h3>
               <span className="skills__level">intermediário</span>
